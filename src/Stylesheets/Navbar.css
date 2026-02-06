@@ -1,0 +1,106 @@
+.navbar{width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+.navdiv1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20vw;
+}
+.menubtn{
+    width: 30px;
+    cursor: pointer;
+}
+.logospan{
+    cursor: pointer;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile{
+    width:35px;
+    cursor: pointer;
+}
+
+.searchimg{
+width: 34px;
+}
+.notification{
+width:32px;
+cursor: pointer;
+}
+
+.searchinput{
+    width: 50%;
+    height: 6vh;
+border: 1px solid;
+    border-color: #c6c6c6;
+    border-right: 0;
+    background-color: #fff;
+    box-shadow: inset 0 1px 2px #eee;
+    border-radius: 40px 0 0 40px;
+    padding: 8px;
+}
+.searchbtn{
+ 
+    border: 1px solid #d3d3d3;
+    background-color: #f8f8f8;
+    width: 64px;
+    border-radius: 0 40px 40px 0;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    color: inherit;
+}
+.searchform{
+width: 70vw;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.navdiv2{
+    display: flex;
+    width: 10vw;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+
+}
+
+@media (max-width:500px) {
+    .menubtn{
+        display: none;
+    }
+    .navdiv2{
+        display: none;
+    }
+    .searchinput{
+        width: 70%;
+    }
+    .navh2{
+        font-size: 1rem;
+    }
+    .logo{
+        width: 50px;
+    }
+    
+}

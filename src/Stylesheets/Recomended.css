@@ -1,0 +1,77 @@
+.card-section{
+    margin-top: 2vh;
+    position: relative;
+    width:30vw;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3px;
+    overflow: hidden;
+    overflow-y: auto;
+    scrollbar-color: transparent transparent;
+    scrollbar-width: thin;
+}
+
+.card{
+position: relative;
+    width: 30vw;
+    height: 35vh;
+    margin: 4px;
+    padding: 2px;
+    cursor: pointer;
+}
+.thumbnail-img{
+width:98%;
+    height: 200px;
+    border-radius: 10px;
+}
+.card-data{
+display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: flex-start;
+}
+.card-data2{
+    font-size: 0.9em;
+}
+
+.channel-logo{
+width: 35px;
+    border-radius: 50%;
+}
+.channel-data{
+position: relative;
+    display: flex
+;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 2px;
+    margin: 4px;
+}
+
+.loadmore-btn{
+        width: 5rem;
+    height: 4vh;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    text-decoration: underline 1px black;
+}
+
+@media (max-width:500px) {
+    .card{
+        width: 370px;
+        height: 290px
+    }
+    .card-section{
+        width: 100%;
+    }
+    
+    
+}

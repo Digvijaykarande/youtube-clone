@@ -1,0 +1,111 @@
+.video-section{
+    width:68vw;
+    height: auto;
+    position: relative;
+    margin-left: 2vw;
+}
+.thevideo{
+    width:95%;
+    height:65vh;
+}
+.channeldata{
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1vw;
+    padding: 2px;
+    height:7vh;
+}
+.videotitle{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.publish-info{
+    width: 22%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.videodata{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    position: relative;
+    margin-left: 14vw;
+}
+
+.subscribe-btn{
+    border-radius: 10px;
+    background: black;
+    color: white;
+    padding: 4px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: 0.5s;
+}
+.like-dislike{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.likebtn,.dislike-btn{
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.share{
+    cursor: pointer;
+}
+
+details {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+@media (max-width:500px) {
+    .video-section{
+        width:100vw;
+        margin-left:0;
+    }
+    .thevideo{
+        width:100%;
+    height: 35vh;
+    }    
+    .videotitle{
+        width: 100%;
+        font-size: 1.4rem;
+    }
+    .publish-info{
+        width: 53%;
+        margin-left:2vw;
+    }
+    .videodata{
+        display: none;
+    }
+    .subscribe-btn{
+        margin-left:5vw;
+    }
+    .description{
+        width: 99%;
+    }
+}
